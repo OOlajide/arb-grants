@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pandasai import PandasAI
+from pandasai import Agent
 from pandasai.llm.openai import OpenAI
 
 st.set_page_config(
